@@ -8,9 +8,9 @@ body {
 
 .container {width: 90%; margin: auto;}
 
-/* .header .top-strip {} */
-
-/* .bg-org{background: #ff5252;} */
 
 .link:hover{ color: #ff5252;}
+
 .bg-primary {background: #ff5252;}
+
+.MuiBadge-badge{background-color: #ff5252 !important;}
