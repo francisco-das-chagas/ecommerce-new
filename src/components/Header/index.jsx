@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Search from "../Search";
+import { Button } from "@mui/material";
 
 const Header = () => {
   return (
@@ -38,7 +39,12 @@ const Header = () => {
             <Search />
           </div>
 
-          <div className="col1 w-[30%]">
+          <div className="col1 w-[30%] flex items-center pl-7">
+                <ul className="flex items-center gap-3">
+                    <li className="list-none">
+                      <Link to="/login" className="link transition text-[15px] font-[500]">Login</Link> | <Link to="/register" className="link transition text-[15px] font-[500]">Register</Link>
+                    </li>
+                </ul>
           </div>
 
         </div>
