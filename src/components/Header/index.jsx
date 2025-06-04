@@ -7,6 +7,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoIosGitCompare } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa";
 import Tooltip from '@mui/material/Tooltip'
+import Navigation from "./Navigation";
 
 
 
@@ -46,7 +47,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="header py-3">
+      <div className="header py-4 border-b-[1px] border-gray-200">
         <div className="container flex items-center justify-between">
 
           <div className="col1 w-[25%]">
@@ -101,6 +102,8 @@ const Header = () => {
         </div>
 
       </div>
+
+        <Navigation/>
     </header>
   );
 };
