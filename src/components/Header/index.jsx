@@ -67,7 +67,7 @@ const Header = () => {
                     </li>
 
                     <li>
-                    <Tooltip title="compare">
+                    <Tooltip title="Compare">
                       <IconButton aria-label="cart">
                         <StyledBadge badgeContent={4} color="secondary">
                         <IoIosGitCompare />
@@ -77,19 +77,23 @@ const Header = () => {
                     </li>
 
                     <li>
-                    <IconButton aria-label="cart">
-                      <StyledBadge badgeContent={4} color="secondary">
-                      <FaRegHeart />
-                      </StyledBadge>
-                    </IconButton>
+                    <Tooltip title="WishList">
+                      <IconButton aria-label="cart">
+                        <StyledBadge badgeContent={4} color="secondary">
+                        <FaRegHeart />
+                        </StyledBadge>
+                      </IconButton>
+                    </Tooltip>
                     </li>
 
                     <li>
-                    <IconButton aria-label="cart">
-                      <StyledBadge badgeContent={4} color="secondary">
-                      <MdOutlineShoppingCart />
-                      </StyledBadge>
-                    </IconButton>
+                      <Tooltip title="Cart">
+                        <IconButton aria-label="cart">
+                          <StyledBadge badgeContent={4} color="secondary">
+                          <MdOutlineShoppingCart />
+                          </StyledBadge>
+                        </IconButton>
+                      </Tooltip>
                     </li>
                 </ul>
           </div>
