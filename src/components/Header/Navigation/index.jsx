@@ -1,6 +1,10 @@
 const Navigation = () => {
   return ( 
-     <div>Navigation</div>
+    <nav>
+        <div className="container">
+          
+        </div>
+    </nav>
    );
 }
  
