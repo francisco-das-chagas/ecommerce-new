@@ -1,29 +1,24 @@
 import Button from "@mui/material/Button";
+import React, { useState } from "react";
 import { RiMenu2Fill } from "react-icons/ri";
-import { FaAngleDown } from "react-icons/fa6";
 import { LiaAngleDownSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import { GoRocket } from "react-icons/go";
 import CategoryPanel from "./CategoryPanel";
-import { useState } from "react";
 
 const Navigation = () => {
-  
   const [isOpenCatPanel, setIsOpenCatPanel] = useState(false);
 
-  const openCategoryPanel=() => {
+  const openCategoryPanel = () => {
     setIsOpenCatPanel(true);
-  }
+  };
 
   return (
     <>
       <nav className="py-2">
         <div className="container flex items-center justify-end gap-8">
-          <div className="col_1 w-[26%]">
-            <Button
-              className="!text-black gap-3 w-full"
-              onClick={isOpenCatPanel}
-            >
+          <div className="col_1 w-[26%] border-1">
+            <Button className="!text-black gap-3 w-full " onClick={openCategoryPanel}> 
               <RiMenu2Fill className="text-[18px]" /> Shop By Categories
               <LiaAngleDownSolid className="text-[13px] ml-auto font-bold" />
             </Button>
@@ -33,106 +28,59 @@ const Navigation = () => {
             <ul className="flex items-center gap-3">
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
-                  <Button
-                    className="link transition !font-[500] !text-[rgba(0,0,0,0.8)]
-                hover:!text-[#ff5252]"
-                  >
-                    {" "}
-                    Home
-                  </Button>
+                  Home
                 </Link>
               </li>
 
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
-                  <Button
-                    className="link transition !font-[500] !text-[rgba(0,0,0,0.8)]
-                hover:!text-[#ff5252]"
-                  >
-                    {" "}
-                    Fashion{" "}
-                  </Button>
+                  Fashion
                 </Link>
               </li>
 
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
-                  <Button
-                    className="link transition !font-[500] !text-[rgba(0,0,0,0.8)]
-                hover:!text-[#ff5252]"
-                  >
-                    {" "}
-                    Eletronics{" "}
-                  </Button>
+                  Eletronics
                 </Link>
               </li>
 
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
-                  <Button
-                    className="link transition !font-[500] !text-[rgba(0,0,0,0.8)]
-                hover:!text-[#ff5252]"
-                  >
-                    {" "}
-                    Bags{" "}
-                  </Button>
+                  Bags
                 </Link>
               </li>
 
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
-                  <Button
-                    className="link transition !font-[500] !text-[rgba(0,0,0,0.8)]
-                hover:!text-[#ff5252]"
-                  >
-                    {" "}
-                    Footwear{" "}
-                  </Button>
+                  Footwear
                 </Link>
               </li>
 
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
-                  <Button
-                    className="link transition !font-[500] !text-[rgba(0,0,0,0.8)]
-                hover:!text-[#ff5252]"
-                  >
-                    {" "}
-                    Groceries{" "}
-                  </Button>
+                  Groceries
                 </Link>
               </li>
 
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
-                  <Button
-                    className="link transition !font-[500] !text-[rgba(0,0,0,0.8)]
-                hover:!text-[#ff5252]"
-                  >
-                    {" "}
-                    Beauty{" "}
-                  </Button>
+                  Beauty
                 </Link>
               </li>
 
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
-                  <Button
-                    className="link transition !font-[500] !text-[rgba(0,0,0,0.8)]
-                hover:!text-[#ff5252]"
-                  >
-                    {" "}
-                    Wellness{" "}
-                  </Button>
+                  Wellness
                 </Link>
               </li>
 
-            <li className="list-none">
-              <Link to="/" className="link transition text-[14px] font-[500]">Jewellery</Link>
-            </li>
-
-          </ul>
-        </div>
+              <li className="list-none">
+                <Link to="/" className="link transition text-[14px] font-[500]">
+                  Jewellery
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           <div className="col_3 w-[20%] flex items-end">
             <p className="text-[13px] font-[500] flex items-center gap-3 mb-0 mt-0 ">
@@ -143,10 +91,7 @@ const Navigation = () => {
         </div>
       </nav>
 
-      {/* Category Panel component */}
-
-      <CategoryPanel isOpenCatPanel={isOpenCatPanel}
-      setIsOpenCatPanel={setIsOpenCatPanel} />
+      <CategoryPanel isOpenCatPanel={isOpenCatPanel} setIsOpenCatPanel={setIsOpenCatPanel}/>
     </>
   );
 };
