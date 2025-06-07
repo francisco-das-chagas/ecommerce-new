@@ -55,8 +55,6 @@ const Navigation = () => {
               <Link to="/" className="link transition text-[14px] font-[500]">Jewellery</Link>
             </li>
 
-            
-
           </ul>
         </div>
 
