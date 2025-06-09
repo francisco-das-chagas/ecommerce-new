@@ -17,7 +17,7 @@ const Navigation = () => {
     <>
       <nav className="py-2">
         <div className="container flex items-center justify-end gap-8">
-          <div className="col_1 w-[26%] border-1">
+          <div className="col_1 w-[26%]">
             <Button className="!text-black gap-3 w-full " onClick={openCategoryPanel}> 
               <RiMenu2Fill className="text-[18px]" /> Shop By Categories
               <LiaAngleDownSolid className="text-[13px] ml-auto font-bold" />

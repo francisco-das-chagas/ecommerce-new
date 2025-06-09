@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
@@ -15,6 +15,8 @@ const CategoryPanel = (props) => {
 
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
+
+      <h3 className='p-3 text-[16px] font-[500]'>Shop By Categories</h3>
       <List>
         {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
           <ListItem key={text} disablePadding>
@@ -41,7 +43,6 @@ const CategoryPanel = (props) => {
 
   return (
     <>
-      <Button onClick={toggleDrawer(true)}>Open drawer</Button>
       <Drawer open={props.isOpenCatPanel} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>
