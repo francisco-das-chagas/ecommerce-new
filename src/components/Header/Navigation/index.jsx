@@ -29,9 +29,9 @@ const Navigation = () => {
           <div className="col_2 w-[66%] ">
             <ul className="flex items-center gap-3">
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !text-[14px] !font-[500]">
                   Home
-                </Link>
+                </Button>
               </li>
 
               <li className="list-none">
