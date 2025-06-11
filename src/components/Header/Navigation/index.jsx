@@ -29,7 +29,7 @@ const Navigation = () => {
           <div className="col_2 w-[66%] ">
             <ul className="flex items-center gap-3">
               <li className="list-none">
-                <Button to="/" className="link transition !text-[14px] !font-[500]">
+                <Button to="/" className="link transition !text-[14px] !font-[500] !text-[rgba(0,0,0,0.5)] hover:!text-[#ff5252]">
                   Home
                 </Button>
               </li>
