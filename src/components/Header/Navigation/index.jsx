@@ -29,57 +29,57 @@ const Navigation = () => {
           <div className="col_2 w-[66%] ">
             <ul className="flex items-center gap-3">
               <li className="list-none">
-                <Button to="/" className="link transition !text-[14px] !font-[500] !text-[rgba(0,0,0,0.5)] hover:!text-[#ff5252]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Home
                 </Button>
               </li>
 
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Fashion
-                </Link>
+                </Button>
               </li>
 
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Eletronics
-                </Link>
+                </Button>
               </li>
 
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Bags
-                </Link>
+                </Button>
               </li>
 
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Footwear
-                </Link>
+                </Button>
               </li>
 
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Groceries
-                </Link>
+               </Button>
               </li>
 
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Beauty
-                </Link>
+                </Button>
               </li>
 
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Wellness
-                </Link>
+                </Button>
               </li>
 
               <li className="list-none">
-                <Link to="/" className="link transition text-[14px] font-[500]">
+                <Button to="/" className="link transition !capitalize !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">
                   Jewellery
-                </Link>
+                </Button>
               </li>
             </ul>
           </div>

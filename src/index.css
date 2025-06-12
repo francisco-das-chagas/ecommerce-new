@@ -4,11 +4,10 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   background: #f5f0f0;
-  color: rgba(0,0,0,0.9);
+  color: rgba(0,0,0,0.8);
 }
 
 .container {  width: 95%; margin: auto;}
-
 
 .link:hover{ color: #ff5252;}
 
