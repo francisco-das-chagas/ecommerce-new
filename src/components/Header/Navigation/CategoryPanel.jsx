@@ -42,28 +42,28 @@ const CategoryPanel = (props) => {
                     <Link 
                       to="/" 
                       className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
-                      Apparel
+                      Smart Tablet
                     </Link>
                   </li>
                   <li className="list-none relative">
                     <Link 
                       to="/" 
                       className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
-                      Apparel
+                      Crepe T-Shirt
                     </Link>
                   </li>
                   <li className="list-none relative">
                     <Link 
                       to="/" 
                       className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
-                      Apparel
+                     Leather Watch
                     </Link>
                   </li>
                   <li className="list-none relative">
                     <Link 
                       to="/" 
                       className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
-                      Apparel
+                      Rolling Diamond
                     </Link>
                   </li>
                 </ul>
