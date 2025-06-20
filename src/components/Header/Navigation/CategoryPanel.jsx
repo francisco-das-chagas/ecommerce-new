@@ -21,26 +21,52 @@ const CategoryPanel = (props) => {
       <div className="scroll">
         <ul className="w-full">
           <li className="list-none flex items-center relative">
-            <Button className="w-full !text-left !justify-start !px-3 !text-[rgba(0,0,0,0.8)]">
-              Fashion
-            </Button>
+             <Link to="/">
+              <Button className="w-full !text-left !justify-start !px-3 !text-[rgba(0,0,0,0.8)]">
+                Fashion
+              </Button>
+              </Link>
             <FaRegSquarePlus className="absolute top-[10px] right-[12px] cursor-pointer" />
 
             <ul className="submenu absolute top-[100%] left-[0%] w-full pr-1 pl-3">
               <li className="list-none relative">
+                <Link to="/">
                 <Button className="w-full !text-left !justify-start !px-3 !text-[rgba(0,0,0,0.8)]">
                   Apparel
                 </Button>
+                </Link> 
                 <FaRegSquarePlus className="absolute top-[10px] right-[8px] cursor-pointer" />
 
                 <ul className="submenu absolute top-[100%] left-[0%] w-full pr-1 pl-3">
                   <li className="list-none relative">
-                    <Link to="/" className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
+                    <Link 
+                      to="/" 
+                      className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
                       Apparel
                     </Link>
-                    <FaRegSquarePlus className="absolute top-[10px] right-[8px] cursor-pointer" />
-              </li>
-            </ul>
+                  </li>
+                  <li className="list-none relative">
+                    <Link 
+                      to="/" 
+                      className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
+                      Apparel
+                    </Link>
+                  </li>
+                  <li className="list-none relative">
+                    <Link 
+                      to="/" 
+                      className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
+                      Apparel
+                    </Link>
+                  </li>
+                  <li className="list-none relative">
+                    <Link 
+                      to="/" 
+                      className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
+                      Apparel
+                    </Link>
+                  </li>
+                </ul>
 
               </li>
             </ul>
