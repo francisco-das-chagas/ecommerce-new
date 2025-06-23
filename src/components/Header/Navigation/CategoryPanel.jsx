@@ -38,28 +38,28 @@ const CategoryPanel = (props) => {
                 <FaRegSquarePlus className="absolute top-[10px] right-[8px] cursor-pointer" />
 
                 <ul className="submenu absolute top-[100%] left-[0%] w-full pr-1 pl-3">
-                  <li className="list-none relative">
+                  <li className="list-none relative mb-1">
                     <Link 
                       to="/" 
                       className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
                       Smart Tablet
                     </Link>
                   </li>
-                  <li className="list-none relative">
+                  <li className="list-none relative mb-1">
                     <Link 
                       to="/" 
                       className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
                       Crepe T-Shirt
                     </Link>
                   </li>
-                  <li className="list-none relative">
+                  <li className="list-none relative mb-1">
                     <Link 
                       to="/" 
                       className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
                      Leather Watch
                     </Link>
                   </li>
-                  <li className="list-none relative">
+                  <li className="list-none relative mb-1">
                     <Link 
                       to="/" 
                       className="link w-full !text-left !justify-start !px-3 transition text-[14px]">
