@@ -9,15 +9,18 @@ import { useState } from "react";
 
 const CategoryPanel = (props) => {
 
-      const [submenuIndex, setSubmenuIndex] = useState(null);
+  const [submenuIndex, setSubmenuIndex] = useState(null);
   const toggleDrawer = (newOpen) => () => {
     props.setIsOpenCatPanel(newOpen);
   };
 
-  const openSubmenu=(index) => {
-    setSubmenuIndex(index)
-
-  }
+  const openInnerSubmenu=(index) => {
+    if(innerSubmenuIndex===index) {
+      setinnerSubmenuIndex(null);
+    }else{
+      setSubmenuIndex(index)
+    }
+  };
 
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" className="categoryPanel">
